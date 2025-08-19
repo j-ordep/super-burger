@@ -37,7 +37,7 @@ export default {
   }
 
   .main-container {
-    margin: 50px; /* problema ta aqui */
+    margin: 50px;
     min-height: 250px;
   }
 
