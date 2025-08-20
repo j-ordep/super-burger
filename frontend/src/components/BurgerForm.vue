@@ -1,6 +1,6 @@
 <template>
   <div id="">
-    <Message/>
+    <Message :msg="msg" v-show="msg"/>
     <div>
       <form id="burger-form" @submit="createBurger">
 
@@ -103,9 +103,8 @@ export default {
 
       console.log(res)
 
-        // colocar uma msg de sistema
-
-      // limpar os campos
+      this.msg = `Pedido Nº ${res.id} realizado com sucesso`
+      setTimeout(() => this.msg="", 3000);
 
       this.nome = ""
       this.carne = ""
