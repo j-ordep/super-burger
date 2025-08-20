@@ -12,8 +12,8 @@ export default {
 
 <style scoped>
   #footer {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     height: 200px;
     width: 100%;
     display: flex;
