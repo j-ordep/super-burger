@@ -37,14 +37,14 @@ export default {
   }
 
   .main-container {
-    margin: 50px;
-    min-height: 250px;
+    min-height: 500px;
   }
 
   h1 {
     text-align: center;
     font-size: 42px;
     margin-bottom: 30px;
+    margin-top: 10px;
     color: #222;
   }
 </style>

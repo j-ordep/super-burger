@@ -29,7 +29,7 @@
           <label id="opcionais-title" for="opcionais">Selecione os opcionais:</label>
           <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
             <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo"> <!-- :value define o valor que será salvo no array quando o checkbox for marcado. -->
-            <span>{{ opcional.tipo }}</span> <!-- é oq é exibido na pagina -->
+            <span>{{ opcional.tipo }}</span>
           </div>
 
         </div>
