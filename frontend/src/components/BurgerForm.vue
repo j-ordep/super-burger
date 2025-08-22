@@ -63,6 +63,7 @@ export default {
       pao: null,
       carne: null,
       opcionais: [],
+      
       msg: null,
     }
   },

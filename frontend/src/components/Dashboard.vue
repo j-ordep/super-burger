@@ -83,7 +83,7 @@ import Message from './Message.vue'
         const res = await req.json()
 
         this.msg = `Pedido removido com sucesso`
-        setTimeout(() => this.msg="", 2000);
+        setTimeout(() => this.msg="", 3000);
 
         this.getPedidos()
 
@@ -103,7 +103,7 @@ import Message from './Message.vue'
         const res = await req.json()
 
         this.msg = `Pedido Nº ${res.id} atualizado para ${res.status}`
-        setTimeout(() => this.msg="", 2000);
+        setTimeout(() => this.msg="", 3000);
 
         console.log(res)
 

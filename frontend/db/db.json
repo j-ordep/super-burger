@@ -79,31 +79,12 @@
   ],
   "burgers": [
     {
-      "nome": "Juliana",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cebola roxa",
-        "Tomate",
-        "Cheddar",
-        "Pepino"
-      ],
-      "status": "Solicitado",
+      "nome": null,
+      "carne": null,
+      "pao": null,
+      "opcionais": [],
+      "status": "Em produção",
       "id": 1
-    },
-    {
-      "nome": "João",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa",
-        "Tomate",
-        "Cheddar",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 2
     }
   ]
 }
